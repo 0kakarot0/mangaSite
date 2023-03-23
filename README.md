@@ -1,3 +1,8 @@
+
+
+![Screenshot_251](https://user-images.githubusercontent.com/11844157/227294864-cf206536-60ba-4112-817d-04c3f11796ca.png)
+
+
 # Manga Site Readme File
 This repository contains the code for a Manga site, which is a web application that allows users to read and download manga. This README file provides an overview of the project and instructions for setting it up and running it locally.
 
