@@ -1,9 +1,9 @@
 body {
-	background-color: #16151d;
-	color: white;
-	font-family: Arial, sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
+  background-color: #16151d;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 /* Header styles */
@@ -11,39 +11,42 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; /* change to 100% */
-  max-width: 1582px; /* add max-width property */
+  width: 100%;
+  /* change to 100% */
+  max-width: 1582px;
+  /* add max-width property */
   height: 60px;
   padding: 0 20px;
-  margin: 0 auto; /* add margin property to center header */
-	background-color: #222222;
+  margin: 0 auto;
+  /* add margin property to center header */
+  background-color: #222222;
 }
 
 header img {
-	height: 60px;
+  height: 60px;
 }
 
 header form {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 header input[type="text"] {
-	background-color: #fff;
-	border: none;
-	padding: 10px;
-	margin-right: 10px;
-	border-radius: 5px;
-	width: 200px;
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  width: 200px;
 }
 
 header button[type="submit"] {
-	background-color: #913fe2;
-	color: white;
-	border: none;
-	padding: 10px 20px;
-	border-radius: 5px;
-	cursor: pointer;
+  background-color: #913fe2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 /* Navigation styles */
@@ -84,37 +87,37 @@ section {
 /* Latest Comics section styles */
 /* section {
 	padding: 20px;
-} */ 
+} */
 
 section h2 {
-	font-size: 24px;
-	margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 /* Images slider styles */
 /* Latest Comics section styles */
 section {
-	padding: 20px;
+  padding: 20px;
 }
 
 section h2 {
-	font-size: 24px;
-	font-weight: bold;
-	margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 /* Image slider styles */
 .slider-container {
-	position: relative;
+  position: relative;
   width: 100%;
   height: 400px;
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .slider {
-	display: flex;
+  display: flex;
   height: 100%;
-	transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
 }
 
 .slide {
@@ -126,16 +129,16 @@ section h2 {
 }
 
 .slider img {
-	width: 100%;
-	object-fit: cover;
+  width: 100%;
+  object-fit: cover;
 }
 
 .slide-arrow {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	z-index: 1;
-	cursor: pointer;  
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
   width: 50px;
   height: 50px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -143,30 +146,30 @@ section h2 {
   text-align: center;
   line-height: 50px;
   color: #fff;
-  font-size: 24px;  
+  font-size: 24px;
 }
 
 .slide-arrow--left {
-	left: 20px;
+  left: 20px;
 }
 
 .slide-arrow--right {
-	right: 20px;
+  right: 20px;
 }
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
-	.slider {
-		flex-wrap: wrap;
-	}
-	
-	.slider img {
-		margin-bottom: 10px;
-	}
-	
-	.slide-arrow {
-		display: none;
-	}
+  .slider {
+    flex-wrap: wrap;
+  }
+
+  .slider img {
+    margin-bottom: 10px;
+  }
+
+  .slide-arrow {
+    display: none;
+  }
 }
 
 
@@ -180,7 +183,8 @@ section h2 {
 }
 
 .card {
-  position: relative; /* added for stacking purposes */
+  position: relative;
+  /* added for stacking purposes */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -190,7 +194,8 @@ section h2 {
   border-radius: 5px;
   padding: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  transition: background-color 0.3s ease-in-out; /* added for fade effect */
+  transition: background-color 0.3s ease-in-out;
+  /* added for fade effect */
 }
 
 .card img {
@@ -204,83 +209,104 @@ section h2 {
   margin-top: 10px;
   text-align: center;
   color: #222222;
-  transition: color 0.3s ease-in-out; /* added for color fade effect */
+  transition: color 0.3s ease-in-out;
+  /* added for color fade effect */
 }
+
 .card:hover {
-  background-color: rgba(0, 0, 0, 0.05); /* added for fade effect */
-  
+  background-color: rgba(0, 0, 0, 0.05);
+  /* added for fade effect */
+
 }
+
 .card:hover h3 {
-  color: #ccc; /* added for title color fade effect on hover */
+  color: #ccc;
+  /* added for title color fade effect on hover */
 }
 
 
 
 /* Latest Updates section styles */
 /* Latest Updates section */
-/* section {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 20px;
-  background-color: #f7f7f7;
-} */
+
 
 .updates-section {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .latest-updates {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .latest-card {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  width: calc(50% - 20px);
+  box-sizing: border-box;
+  /* width: 50%; */
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
   border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .latest-card img {
-  width: 100%;
-  height: auto;
+  float: left;
+  margin-right: 20px;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
   border-radius: 5px;
+}
+
+.latest-card h3 {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+.latest-card p {
+  font-size: 0.9rem;
+  margin-bottom: 0;
 }
 
 .upcoming-series {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  width: 30%;
 }
 
 .cards-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .upcoming-card {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 10px;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
   border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .upcoming-card img {
   width: 100%;
   height: auto;
+  object-fit: cover;
   border-radius: 5px;
 }
+
+.upcoming-card h3 {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+.upcoming-card p {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
 
 
 /* Footer */
@@ -319,7 +345,7 @@ footer ul {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  
+
 }
 
 /* Add margin to the list items in the footer */
